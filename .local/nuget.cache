@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "P1cBeJW/L57YPfL1J6duxIldQL3ksDRD9aw6fCMQmcA2SDrgbTi2TrPkHSJMyJW6/WABAKZCvgT2/6/ypoBdoQ==",
+  "dgSpecHash": "0xCAedbihvTeRt5BH3iLkF49G2l/vUfANDcxndhBNxl4RcpynIXx7TSGA7rcHS2786YTfvBvN/Q9RjxHYlfgFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local\\",
   "expectedPackageFiles": [
@@ -14,12 +14,29 @@
     "C:\\Users\\NIKT\\.nuget\\packages\\documentformat.openxml\\2.12.1\\documentformat.openxml.2.12.1.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\excelnumberformat\\1.0.10\\excelnumberformat.1.0.10.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\fsharp.core\\4.7.1\\fsharp.core.4.7.1.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.api.commonprotos\\2.3.0\\google.api.commonprotos.2.3.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.api.gax\\3.5.0\\google.api.gax.3.5.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.api.gax.grpc\\3.5.0\\google.api.gax.grpc.3.5.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.api.gax.grpc.grpccore\\3.5.0\\google.api.gax.grpc.grpccore.3.5.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.api.gax.rest\\3.3.0\\google.api.gax.rest.3.3.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\google.apis\\1.55.0\\google.apis.1.55.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\google.apis.auth\\1.55.0\\google.apis.auth.1.55.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554\\google.apis.calendar.v3.1.55.0.2554.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.apis.compute.v1\\1.55.0.2441\\google.apis.compute.v1.1.55.0.2441.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\google.apis.core\\1.55.0\\google.apis.core.1.55.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510\\google.apis.gmail.v1.1.55.0.2510.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.apis.iam.v1\\1.55.0.2428\\google.apis.iam.v1.1.55.0.2428.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567\\google.apis.peopleservice.v1.1.55.0.2567.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.apis.storage.v1\\1.51.0.2234\\google.apis.storage.v1.1.51.0.2234.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.cloud.iam.v1\\2.2.0\\google.cloud.iam.v1.2.2.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.cloud.resourcemanager.v3\\1.1.0\\google.cloud.resourcemanager.v3.1.1.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.cloud.secretmanager.v1\\1.7.0\\google.cloud.secretmanager.v1.1.7.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.cloud.storage.v1\\3.5.0\\google.cloud.storage.v1.3.5.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.longrunning\\2.2.0\\google.longrunning.2.2.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\google.protobuf\\3.15.8\\google.protobuf.3.15.8.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\grpc.auth\\2.38.0\\grpc.auth.2.38.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\grpc.core\\2.38.1\\grpc.core.2.38.1.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\grpc.core.api\\2.38.1\\grpc.core.api.2.38.1.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\htmlagilitypack\\1.11.38\\htmlagilitypack.1.11.38.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\mailkit\\4.4.0\\mailkit.4.4.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\markdig.signed\\0.31.0\\markdig.signed.0.31.0.nupkg.sha512",
@@ -34,14 +51,14 @@
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\microsoft.aspnetcore.signalr.common.3.1.6.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\microsoft.aspnetcore.signalr.protocols.json.3.1.6.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\microsoft.azure.cognitiveservices.vision.computervision.7.0.1.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0-2.22527.10\\microsoft.codeanalysis.common.4.5.0-2.22527.10.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10\\microsoft.codeanalysis.csharp.4.5.0-2.22527.10.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\4.5.0-2.22527.10\\microsoft.codeanalysis.visualbasic.4.5.0-2.22527.10.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.2.0\\microsoft.extensions.caching.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.2.0\\microsoft.extensions.caching.memory.2.2.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\microsoft.extensions.configuration.3.1.6.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\microsoft.extensions.configuration.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\microsoft.extensions.configuration.binder.3.1.6.nupkg.sha512",
@@ -49,10 +66,10 @@
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\microsoft.extensions.logging.3.1.6.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.objectpool\\5.0.17\\microsoft.extensions.objectpool.5.0.17.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\microsoft.extensions.options.3.1.6.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.graph\\4.11.0\\microsoft.graph.4.11.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.graph.core\\2.0.5\\microsoft.graph.core.2.0.5.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\microsoft.identity.client.4.35.1.nupkg.sha512",
@@ -100,7 +117,8 @@
     "C:\\Users\\NIKT\\.nuget\\packages\\nlog\\4.5.11\\nlog.4.5.11.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\npoi\\2.5.5\\npoi.2.5.5.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\ntextcat\\0.3.65\\ntextcat.0.3.65.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\polly\\7.2.2\\polly.7.2.2.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\polly.contrib.waitandretry\\1.1.1\\polly.contrib.waitandretry.1.1.1.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\runtime.any.system.collections\\4.3.0\\runtime.any.system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\runtime.any.system.diagnostics.tools\\4.3.0\\runtime.any.system.diagnostics.tools.4.3.0.nupkg.sha512",
@@ -277,12 +295,13 @@
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\uipath.activities.runtimegovernance.1.1.6.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.cefsharpbundle.netcore\\1.10.0\\uipath.cefsharpbundle.netcore.1.10.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.codedworkflows\\24.10.0\\uipath.codedworkflows.24.10.0.nupkg.sha512",
-    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.connectionclient\\2.0.3\\uipath.connectionclient.2.0.3.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.connectionclient\\2.0.7\\uipath.connectionclient.2.0.7.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.26.0\\uipath.documentprocessing.contracts.1.26.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.documentunderstanding.digitizer\\4.2.3\\uipath.documentunderstanding.digitizer.4.2.3.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.documentunderstanding.ml.activities\\1.28.7\\uipath.documentunderstanding.ml.activities.1.28.7.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.emgucvbundle\\1.1.0\\uipath.emgucvbundle.1.1.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.excel.activities\\2.23.4\\uipath.excel.activities.2.23.4.nupkg.sha512",
+    "C:\\Users\\NIKT\\.nuget\\packages\\uipath.googlecloud.activities\\2.4.1\\uipath.googlecloud.activities.2.4.1.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.imageprocessing\\23.4.0\\uipath.imageprocessing.23.4.0.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.integration.api.client\\1.172.8\\uipath.integration.api.client.1.172.8.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.intelligentocr.activities\\6.19.6\\uipath.intelligentocr.activities.6.19.6.nupkg.sha512",
@@ -304,5 +323,606 @@
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.vision\\3.13.2\\uipath.vision.3.13.2.nupkg.sha512",
     "C:\\Users\\NIKT\\.nuget\\packages\\uipath.wordstonumbers\\1.0.0\\uipath.wordstonumbers.1.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'UiPath.GoogleCloud.Activities' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.GoogleCloud.Activities'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.GoogleCloud.Activities"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'UiPath.GoogleCloud.Activities' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.GoogleCloud.Activities'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.GoogleCloud.Activities"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Compute.v1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Compute.v1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Compute.v1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Compute.v1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Compute.v1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Compute.v1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Caching.Memory' from remote source 'http://myget.org/FindPackagesById()?id='Microsoft.Extensions.Caching.Memory'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Caching.Memory"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Caching.Memory' from remote source 'http://myget.org/FindPackagesById()?id='Microsoft.Extensions.Caching.Memory'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Caching.Memory"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Cloud.ResourceManager.V3' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.ResourceManager.V3'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.ResourceManager.V3"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Cloud.ResourceManager.V3' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.ResourceManager.V3'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.ResourceManager.V3"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Polly' from remote source 'http://myget.org/FindPackagesById()?id='Polly'&semVerLevel=2.0.0'.",
+      "libraryId": "Polly"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Polly' from remote source 'http://myget.org/FindPackagesById()?id='Polly'&semVerLevel=2.0.0'.",
+      "libraryId": "Polly"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Cloud.Storage.V1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.Storage.V1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.Storage.V1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Cloud.Storage.V1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.Storage.V1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.Storage.V1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Polly.Contrib.WaitAndRetry' from remote source 'http://myget.org/FindPackagesById()?id='Polly.Contrib.WaitAndRetry'&semVerLevel=2.0.0'.",
+      "libraryId": "Polly.Contrib.WaitAndRetry"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Polly.Contrib.WaitAndRetry' from remote source 'http://myget.org/FindPackagesById()?id='Polly.Contrib.WaitAndRetry'&semVerLevel=2.0.0'.",
+      "libraryId": "Polly.Contrib.WaitAndRetry"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'UiPath.ConnectionClient' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.ConnectionClient'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.ConnectionClient"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'UiPath.ConnectionClient' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.ConnectionClient'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.ConnectionClient"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Caching.Abstractions' from remote source 'http://myget.org/FindPackagesById()?id='Microsoft.Extensions.Caching.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Caching.Abstractions"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Caching.Abstractions' from remote source 'http://myget.org/FindPackagesById()?id='Microsoft.Extensions.Caching.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Caching.Abstractions"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Iam.v1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Iam.v1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Iam.v1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Iam.v1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Iam.v1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Iam.v1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Microsoft.Bcl.AsyncInterfaces' from remote source 'http://myget.org/FindPackagesById()?id='Microsoft.Bcl.AsyncInterfaces'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Bcl.AsyncInterfaces"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Microsoft.Bcl.AsyncInterfaces' from remote source 'http://myget.org/FindPackagesById()?id='Microsoft.Bcl.AsyncInterfaces'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Bcl.AsyncInterfaces"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Cloud.SecretManager.V1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.SecretManager.V1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.SecretManager.V1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Cloud.SecretManager.V1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.SecretManager.V1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.SecretManager.V1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'UiPath.CodedWorkflows' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.CodedWorkflows'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.CodedWorkflows"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Rest' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Rest'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Rest"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Rest' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Rest'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Rest"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Cloud.Iam.V1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.Iam.V1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.Iam.V1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Cloud.Iam.V1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.Iam.V1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.Iam.V1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Grpc.GrpcCore' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Grpc.GrpcCore'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Grpc.GrpcCore"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Grpc.GrpcCore' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Grpc.GrpcCore'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Grpc.GrpcCore"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Storage.v1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Storage.v1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Storage.v1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Storage.v1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Storage.v1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Storage.v1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Core' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Core' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.LongRunning' from remote source 'http://myget.org/FindPackagesById()?id='Google.LongRunning'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.LongRunning"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.LongRunning' from remote source 'http://myget.org/FindPackagesById()?id='Google.LongRunning'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.LongRunning"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Grpc' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Grpc'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Grpc"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Grpc' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Grpc'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Grpc"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Grpc' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Grpc'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Grpc"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Grpc' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Grpc'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Grpc"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.Gax' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.CommonProtos' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.CommonProtos'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.CommonProtos"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.CommonProtos' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.CommonProtos'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.CommonProtos"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.CommonProtos' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.CommonProtos'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.CommonProtos"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Api.CommonProtos' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.CommonProtos'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.CommonProtos"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Grpc.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Core' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Core"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Core' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Core"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Core' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Core"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Apis.Core' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Core"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Protobuf' from remote source 'http://myget.org/FindPackagesById()?id='Google.Protobuf'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Protobuf"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Protobuf' from remote source 'http://myget.org/FindPackagesById()?id='Google.Protobuf'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Protobuf"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Protobuf' from remote source 'http://myget.org/FindPackagesById()?id='Google.Protobuf'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Protobuf"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NIKT\\Documents\\UiPath\\DocumentUnderstandingTestProject\\.local",
+      "message": "Failed to retrieve information about 'Google.Protobuf' from remote source 'http://myget.org/FindPackagesById()?id='Google.Protobuf'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Protobuf"
+    }
+  ]
 }

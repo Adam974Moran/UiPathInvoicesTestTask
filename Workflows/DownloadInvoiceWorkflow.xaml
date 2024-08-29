@@ -123,7 +123,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uasf:DownloadFileFromUrl Timeout="{x:Null}" ConflictResolution="Rename" DisplayName="Download File from URL" FileName="./Item/File.jpg" sap:VirtualizedContainerService.HintSize="353.6,113.6" sap2010:WorkflowViewState.IdRef="DownloadFileFromUrl_1">
+            <uasf:DownloadFileFromUrl Timeout="{x:Null}" ConflictResolution="Rename" DisplayName="Download File from URL" FileName="Data\\Item\\File.jpg" sap:VirtualizedContainerService.HintSize="353.6,113.6" sap2010:WorkflowViewState.IdRef="DownloadFileFromUrl_1">
               <uasf:DownloadFileFromUrl.ResponseAttachment>
                 <OutArgument x:TypeArguments="upr:ILocalResource">
                   <CSharpReference x:TypeArguments="upr:ILocalResource" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">out_invoiceFile</CSharpReference>

@@ -200,6 +200,93 @@
           }
         }
       },
+      "Google.Api.CommonProtos/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "[3.15.8, 4.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Api.Gax/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.Gax.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Api.Gax.Grpc/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.CommonProtos": "2.3.0",
+          "Google.Api.Gax": "3.5.0",
+          "Google.Apis.Auth": "[1.53.0, 2.0.0)",
+          "Grpc.Auth": "[2.38.0, 3.0.0)",
+          "Grpc.Core.Api": "[2.38.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.Gax.Grpc.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Api.Gax.Grpc.GrpcCore/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Grpc": "3.5.0",
+          "Grpc.Core": "[2.38.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.Gax.Grpc.GrpcCore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Api.Gax.Rest/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax": "3.3.0",
+          "Google.Apis.Auth": "[1.48.0, 2.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.Gax.Rest.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Google.Apis/1.55.0": {
         "type": "package",
         "dependencies": {
@@ -251,6 +338,23 @@
           }
         }
       },
+      "Google.Apis.Compute.v1/1.55.0.2441": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.55.0",
+          "Google.Apis.Auth": "1.55.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Compute.v1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Google.Apis.Core/1.55.0": {
         "type": "package",
         "dependencies": {
@@ -284,6 +388,23 @@
           }
         }
       },
+      "Google.Apis.Iam.v1/1.55.0.2428": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.55.0",
+          "Google.Apis.Auth": "1.55.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Iam.v1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Google.Apis.PeopleService.v1/1.55.0.2567": {
         "type": "package",
         "dependencies": {
@@ -297,6 +418,184 @@
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.PeopleService.v1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Storage.v1/1.51.0.2234": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.51.0",
+          "Google.Apis.Auth": "1.51.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Storage.v1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Cloud.Iam.V1/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Grpc.GrpcCore": "[3.3.0, 4.0.0)",
+          "Grpc.Core": "[2.36.4, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Cloud.Iam.V1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Cloud.ResourceManager.V3/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Grpc.GrpcCore": "[3.5.0, 4.0.0)",
+          "Google.Cloud.Iam.V1": "[2.2.0, 3.0.0)",
+          "Google.LongRunning": "[2.2.0, 3.0.0)",
+          "Grpc.Core": "[2.38.1, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Cloud.ResourceManager.V3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Cloud.SecretManager.V1/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Grpc.GrpcCore": "[3.5.0, 4.0.0)",
+          "Google.Cloud.Iam.V1": "[2.2.0, 3.0.0)",
+          "Grpc.Core": "[2.38.1, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Cloud.SecretManager.V1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Cloud.Storage.V1/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Rest": "[3.3.0, 4.0.0)",
+          "Google.Apis.Storage.v1": "[1.51.0.2234, 2.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Cloud.Storage.V1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.LongRunning/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Grpc.GrpcCore": "[3.3.0, 4.0.0)",
+          "Grpc.Core": "[2.36.4, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.LongRunning.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Protobuf/3.15.8": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Grpc.Auth/2.38.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Auth": "1.46.0",
+          "Grpc.Core.Api": "2.38.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Grpc.Core/2.38.1": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.Core.Api": "2.38.1",
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/_._": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.38.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -528,7 +827,7 @@
           "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll": {}
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/_._": {
@@ -733,10 +1032,10 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/2.2.0": {
+      "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.2.0"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/_._": {
@@ -749,12 +1048,14 @@
           }
         }
       },
-      "Microsoft.Extensions.Caching.Memory/2.2.0": {
+      "Microsoft.Extensions.Caching.Memory/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "2.2.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Options": "2.2.0"
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/_._": {
@@ -886,17 +1187,20 @@
           }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.1.6": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "Microsoft.Extensions.ObjectPool/5.0.17": {
@@ -912,34 +1216,40 @@
           }
         }
       },
-      "Microsoft.Extensions.Options/3.1.6": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
-          "Microsoft.Extensions.Primitives": "3.1.6"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/_._": {
+          "lib/netstandard2.1/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
             "related": ".xml"
           }
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.6": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
         "compile": {
-          "lib/netcoreapp3.1/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "Microsoft.Graph/4.11.0": {
@@ -1803,16 +2113,29 @@
           }
         }
       },
-      "Polly/7.1.0": {
+      "Polly/7.2.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {
-            "related": ".xml"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Polly.dll": {
-            "related": ".xml"
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Polly.Contrib.WaitAndRetry/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -4564,18 +4887,17 @@
           }
         }
       },
-      "UiPath.ConnectionClient/2.0.3": {
+      "UiPath.ConnectionClient/2.0.7": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "11.0.2",
-          "System.Net.Http": "4.3.4",
-          "System.Runtime.Caching": "5.0.0"
+          "Newtonsoft.Json": "13.0.3",
+          "System.Runtime.Caching": "6.0.0"
         },
         "compile": {
-          "lib/net5.0/_._": {}
+          "lib/net6.0/_._": {}
         },
         "runtime": {
-          "lib/net5.0/ConnectionClient.dll": {}
+          "lib/net6.0/ConnectionClient.dll": {}
         }
       },
       "UiPath.DocumentProcessing.Contracts/1.26.0": {
@@ -4927,6 +5249,143 @@
             "locale": "zh-TW"
           },
           "lib/net6.0-windows7.0/zh-TW/UiPath.Excel.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "UiPath.GoogleCloud.Activities/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.55.0",
+          "Google.Apis.Compute.v1": "1.55.0.2441",
+          "Google.Apis.Iam.v1": "1.55.0.2428",
+          "Google.Cloud.ResourceManager.V3": "1.1.0",
+          "Google.Cloud.SecretManager.V1": "1.7.0",
+          "Google.Cloud.Storage.V1": "3.5.0",
+          "Microsoft.Bcl.AsyncInterfaces": "7.0.0",
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Caching.Memory": "6.0.0",
+          "Polly": "7.2.2",
+          "Polly.Contrib.WaitAndRetry": "1.1.1",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Json": "5.0.2",
+          "UiPath.CodedWorkflows": "24.4.2",
+          "UiPath.ConnectionClient": "2.0.7",
+          "UiPath.Platform": "23.4.0",
+          "UiPath.Telemetry.Client": "1.5.3"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.GoogleCloud.Activities.API.dll": {},
+          "lib/net6.0-windows7.0/UiPath.GoogleCloud.Activities.Design.dll": {},
+          "lib/net6.0-windows7.0/UiPath.GoogleCloud.Activities.dll": {},
+          "lib/net6.0-windows7.0/UiPath.GoogleCloud.dll": {}
+        },
+        "resource": {
+          "lib/net6.0-windows7.0/de/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.GoogleCloud.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.GoogleCloud.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.GoogleCloud.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.GoogleCloud.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.GoogleCloud.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.GoogleCloud.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.GoogleCloud.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.GoogleCloud.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.GoogleCloud.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.GoogleCloud.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.GoogleCloud.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.GoogleCloud.Activities.resources.dll": {
             "locale": "zh-TW"
           }
         }
@@ -7216,6 +7675,93 @@
           }
         }
       },
+      "Google.Api.CommonProtos/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "[3.15.8, 4.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Api.Gax/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.Gax.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Api.Gax.Grpc/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.CommonProtos": "2.3.0",
+          "Google.Api.Gax": "3.5.0",
+          "Google.Apis.Auth": "[1.53.0, 2.0.0)",
+          "Grpc.Auth": "[2.38.0, 3.0.0)",
+          "Grpc.Core.Api": "[2.38.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.Gax.Grpc.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Api.Gax.Grpc.GrpcCore/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Grpc": "3.5.0",
+          "Grpc.Core": "[2.38.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.Gax.Grpc.GrpcCore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Api.Gax.Rest/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax": "3.3.0",
+          "Google.Apis.Auth": "[1.48.0, 2.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.Gax.Rest.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Google.Apis/1.55.0": {
         "type": "package",
         "dependencies": {
@@ -7267,6 +7813,23 @@
           }
         }
       },
+      "Google.Apis.Compute.v1/1.55.0.2441": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.55.0",
+          "Google.Apis.Auth": "1.55.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Compute.v1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Google.Apis.Core/1.55.0": {
         "type": "package",
         "dependencies": {
@@ -7300,6 +7863,23 @@
           }
         }
       },
+      "Google.Apis.Iam.v1/1.55.0.2428": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.55.0",
+          "Google.Apis.Auth": "1.55.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Iam.v1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Google.Apis.PeopleService.v1/1.55.0.2567": {
         "type": "package",
         "dependencies": {
@@ -7313,6 +7893,181 @@
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.PeopleService.v1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Storage.v1/1.51.0.2234": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.51.0",
+          "Google.Apis.Auth": "1.51.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Storage.v1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Cloud.Iam.V1/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Grpc.GrpcCore": "[3.3.0, 4.0.0)",
+          "Grpc.Core": "[2.36.4, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Cloud.Iam.V1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Cloud.ResourceManager.V3/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Grpc.GrpcCore": "[3.5.0, 4.0.0)",
+          "Google.Cloud.Iam.V1": "[2.2.0, 3.0.0)",
+          "Google.LongRunning": "[2.2.0, 3.0.0)",
+          "Grpc.Core": "[2.38.1, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Cloud.ResourceManager.V3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Cloud.SecretManager.V1/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Grpc.GrpcCore": "[3.5.0, 4.0.0)",
+          "Google.Cloud.Iam.V1": "[2.2.0, 3.0.0)",
+          "Grpc.Core": "[2.38.1, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Cloud.SecretManager.V1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Cloud.Storage.V1/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Rest": "[3.3.0, 4.0.0)",
+          "Google.Apis.Storage.v1": "[1.51.0.2234, 2.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Cloud.Storage.V1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.LongRunning/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Grpc.GrpcCore": "[3.3.0, 4.0.0)",
+          "Grpc.Core": "[2.36.4, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.LongRunning.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Protobuf/3.15.8": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Grpc.Auth/2.38.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Auth": "1.46.0",
+          "Grpc.Core.Api": "2.38.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Grpc.Core/2.38.1": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.Core.Api": "2.38.1",
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/_._": {}
+        }
+      },
+      "Grpc.Core.Api/2.38.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -7544,7 +8299,7 @@
           "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll": {}
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/_._": {
@@ -7749,10 +8504,10 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/2.2.0": {
+      "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.2.0"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/_._": {
@@ -7765,12 +8520,14 @@
           }
         }
       },
-      "Microsoft.Extensions.Caching.Memory/2.2.0": {
+      "Microsoft.Extensions.Caching.Memory/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "2.2.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Options": "2.2.0"
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/_._": {
@@ -7902,17 +8659,20 @@
           }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.1.6": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "Microsoft.Extensions.ObjectPool/5.0.17": {
@@ -7928,34 +8688,40 @@
           }
         }
       },
-      "Microsoft.Extensions.Options/3.1.6": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
-          "Microsoft.Extensions.Primitives": "3.1.6"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/_._": {
+          "lib/netstandard2.1/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
             "related": ".xml"
           }
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.6": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
         "compile": {
-          "lib/netcoreapp3.1/_._": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "Microsoft.Graph/4.11.0": {
@@ -8716,16 +9482,29 @@
           }
         }
       },
-      "Polly/7.1.0": {
+      "Polly/7.2.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {
-            "related": ".xml"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Polly.dll": {
-            "related": ".xml"
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Polly.Contrib.WaitAndRetry/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -11451,18 +12230,17 @@
           }
         }
       },
-      "UiPath.ConnectionClient/2.0.3": {
+      "UiPath.ConnectionClient/2.0.7": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "11.0.2",
-          "System.Net.Http": "4.3.4",
-          "System.Runtime.Caching": "5.0.0"
+          "Newtonsoft.Json": "13.0.3",
+          "System.Runtime.Caching": "6.0.0"
         },
         "compile": {
-          "lib/net5.0/_._": {}
+          "lib/net6.0/_._": {}
         },
         "runtime": {
-          "lib/net5.0/ConnectionClient.dll": {}
+          "lib/net6.0/ConnectionClient.dll": {}
         }
       },
       "UiPath.DocumentProcessing.Contracts/1.26.0": {
@@ -11814,6 +12592,143 @@
             "locale": "zh-TW"
           },
           "lib/net6.0-windows7.0/zh-TW/UiPath.Excel.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "UiPath.GoogleCloud.Activities/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.55.0",
+          "Google.Apis.Compute.v1": "1.55.0.2441",
+          "Google.Apis.Iam.v1": "1.55.0.2428",
+          "Google.Cloud.ResourceManager.V3": "1.1.0",
+          "Google.Cloud.SecretManager.V1": "1.7.0",
+          "Google.Cloud.Storage.V1": "3.5.0",
+          "Microsoft.Bcl.AsyncInterfaces": "7.0.0",
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Caching.Memory": "6.0.0",
+          "Polly": "7.2.2",
+          "Polly.Contrib.WaitAndRetry": "1.1.1",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Json": "5.0.2",
+          "UiPath.CodedWorkflows": "24.4.2",
+          "UiPath.ConnectionClient": "2.0.7",
+          "UiPath.Platform": "23.4.0",
+          "UiPath.Telemetry.Client": "1.5.3"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.GoogleCloud.Activities.API.dll": {},
+          "lib/net6.0-windows7.0/UiPath.GoogleCloud.Activities.Design.dll": {},
+          "lib/net6.0-windows7.0/UiPath.GoogleCloud.Activities.dll": {},
+          "lib/net6.0-windows7.0/UiPath.GoogleCloud.dll": {}
+        },
+        "resource": {
+          "lib/net6.0-windows7.0/de/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.GoogleCloud.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.GoogleCloud.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.GoogleCloud.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.GoogleCloud.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.GoogleCloud.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.GoogleCloud.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.GoogleCloud.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.GoogleCloud.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.GoogleCloud.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.GoogleCloud.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.GoogleCloud.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.GoogleCloud.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.GoogleCloud.Activities.Design.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.GoogleCloud.Activities.resources.dll": {
             "locale": "zh-TW"
           }
         }
@@ -14123,6 +15038,101 @@
         "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll"
       ]
     },
+    "Google.Api.CommonProtos/2.3.0": {
+      "sha512": "+CKoDb9ZeZGb56MUb6I8hdkUmp2kLCycljv9FWOX5OfJeJ5WW3IaO26hCX1zKsXdxeXU14viC+WEuXhFgk807w==",
+      "type": "package",
+      "path": "google.api.commonprotos/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.api.commonprotos.2.3.0.nupkg.sha512",
+        "google.api.commonprotos.nuspec",
+        "lib/net461/Google.Api.CommonProtos.dll",
+        "lib/net461/Google.Api.CommonProtos.pdb",
+        "lib/net461/Google.Api.CommonProtos.xml",
+        "lib/netstandard2.0/Google.Api.CommonProtos.dll",
+        "lib/netstandard2.0/Google.Api.CommonProtos.pdb",
+        "lib/netstandard2.0/Google.Api.CommonProtos.xml"
+      ]
+    },
+    "Google.Api.Gax/3.5.0": {
+      "sha512": "Kb8inCXQjvMgvfe4XjdFig3v9Jz7QSklnJK1K2IZgtFkemjQon5m29DoeEyurIAbkdtsZTe0bad+Nmoz/5ItPQ==",
+      "type": "package",
+      "path": "google.api.gax/3.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.api.gax.3.5.0.nupkg.sha512",
+        "google.api.gax.nuspec",
+        "lib/net461/Google.Api.Gax.dll",
+        "lib/net461/Google.Api.Gax.pdb",
+        "lib/net461/Google.Api.Gax.xml",
+        "lib/netstandard2.0/Google.Api.Gax.dll",
+        "lib/netstandard2.0/Google.Api.Gax.pdb",
+        "lib/netstandard2.0/Google.Api.Gax.xml"
+      ]
+    },
+    "Google.Api.Gax.Grpc/3.5.0": {
+      "sha512": "LrOzGaMS5uUlS0P83GcdsXUstSv705qj0AREH4bQzyCtFRTpNm4eJS9JaB/9BzEAKKK8aXLu+OKWb45wJSjLQg==",
+      "type": "package",
+      "path": "google.api.gax.grpc/3.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.api.gax.grpc.3.5.0.nupkg.sha512",
+        "google.api.gax.grpc.nuspec",
+        "lib/net461/Google.Api.Gax.Grpc.dll",
+        "lib/net461/Google.Api.Gax.Grpc.pdb",
+        "lib/net461/Google.Api.Gax.Grpc.xml",
+        "lib/netstandard2.0/Google.Api.Gax.Grpc.dll",
+        "lib/netstandard2.0/Google.Api.Gax.Grpc.pdb",
+        "lib/netstandard2.0/Google.Api.Gax.Grpc.xml"
+      ]
+    },
+    "Google.Api.Gax.Grpc.GrpcCore/3.5.0": {
+      "sha512": "VbvdZFs5Vs+7KSkxu/kGSXDTWMSnH14wY5XNUjPcfxhaB8q0AaIMsbwIoIe4WxHD53Q6Fr2+8eL1suN2yDA4nw==",
+      "type": "package",
+      "path": "google.api.gax.grpc.grpccore/3.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.api.gax.grpc.grpccore.3.5.0.nupkg.sha512",
+        "google.api.gax.grpc.grpccore.nuspec",
+        "lib/net461/Google.Api.Gax.Grpc.GrpcCore.dll",
+        "lib/net461/Google.Api.Gax.Grpc.GrpcCore.pdb",
+        "lib/net461/Google.Api.Gax.Grpc.GrpcCore.xml",
+        "lib/netstandard2.0/Google.Api.Gax.Grpc.GrpcCore.dll",
+        "lib/netstandard2.0/Google.Api.Gax.Grpc.GrpcCore.pdb",
+        "lib/netstandard2.0/Google.Api.Gax.Grpc.GrpcCore.xml"
+      ]
+    },
+    "Google.Api.Gax.Rest/3.3.0": {
+      "sha512": "/D3FTV5FH3I4vzbLSRWmeU/1ckFP6kk195Wga51UTWip7EYRUSEFEQzCWb+VHcB7HgCYp98KvIxg3B6cDKPJQQ==",
+      "type": "package",
+      "path": "google.api.gax.rest/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.api.gax.rest.3.3.0.nupkg.sha512",
+        "google.api.gax.rest.nuspec",
+        "lib/net461/Google.Api.Gax.Rest.dll",
+        "lib/net461/Google.Api.Gax.Rest.pdb",
+        "lib/net461/Google.Api.Gax.Rest.xml",
+        "lib/netstandard2.0/Google.Api.Gax.Rest.dll",
+        "lib/netstandard2.0/Google.Api.Gax.Rest.pdb",
+        "lib/netstandard2.0/Google.Api.Gax.Rest.xml"
+      ]
+    },
     "Google.Apis/1.55.0": {
       "sha512": "siw3M6VOFbkrTlOTo7F89BrdDFQw/XVks8qo4xDMXwGpwKpCt0KWENYs7N2RWFznJghlrmPuZ6Sx13vvYqrynA==",
       "type": "package",
@@ -14203,6 +15213,34 @@
         "lib/netstandard2.0/Google.Apis.Calendar.v3.xml"
       ]
     },
+    "Google.Apis.Compute.v1/1.55.0.2441": {
+      "sha512": "sekyBYKFTjNZ1jFW5Whg5k0vR2wWkAk0IxcvekLGov0Ijtyhqc3s6iC41WtWeTBxa4/xRxhfhVi09BqLfpPb2g==",
+      "type": "package",
+      "path": "google.apis.compute.v1/1.55.0.2441",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.compute.v1.1.55.0.2441.nupkg.sha512",
+        "google.apis.compute.v1.nuspec",
+        "lib/net40/Google.Apis.Compute.v1.dll",
+        "lib/net40/Google.Apis.Compute.v1.pdb",
+        "lib/net40/Google.Apis.Compute.v1.xml",
+        "lib/net45/Google.Apis.Compute.v1.dll",
+        "lib/net45/Google.Apis.Compute.v1.pdb",
+        "lib/net45/Google.Apis.Compute.v1.xml",
+        "lib/netstandard1.0/Google.Apis.Compute.v1.dll",
+        "lib/netstandard1.0/Google.Apis.Compute.v1.pdb",
+        "lib/netstandard1.0/Google.Apis.Compute.v1.xml",
+        "lib/netstandard1.3/Google.Apis.Compute.v1.dll",
+        "lib/netstandard1.3/Google.Apis.Compute.v1.pdb",
+        "lib/netstandard1.3/Google.Apis.Compute.v1.xml",
+        "lib/netstandard2.0/Google.Apis.Compute.v1.dll",
+        "lib/netstandard2.0/Google.Apis.Compute.v1.pdb",
+        "lib/netstandard2.0/Google.Apis.Compute.v1.xml"
+      ]
+    },
     "Google.Apis.Core/1.55.0": {
       "sha512": "QX6pmjRxZYgyGFqsa7tyxdjoEb6ssJ9lv6ub8AxhPd/BCMEglmqzW4GpsuKQZaRg9Qq9gp9HRzjCiLZ3RgmNgw==",
       "type": "package",
@@ -14253,6 +15291,34 @@
         "lib/netstandard2.0/Google.Apis.Gmail.v1.xml"
       ]
     },
+    "Google.Apis.Iam.v1/1.55.0.2428": {
+      "sha512": "pUTmVKb1YDJDsiSFLivVa4CyeCdf5rYQBqASER2KrfwX7FzgbfLdyawMU+mHMhoBJYM0HNA5zpowLX4u7/mS2w==",
+      "type": "package",
+      "path": "google.apis.iam.v1/1.55.0.2428",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.iam.v1.1.55.0.2428.nupkg.sha512",
+        "google.apis.iam.v1.nuspec",
+        "lib/net40/Google.Apis.Iam.v1.dll",
+        "lib/net40/Google.Apis.Iam.v1.pdb",
+        "lib/net40/Google.Apis.Iam.v1.xml",
+        "lib/net45/Google.Apis.Iam.v1.dll",
+        "lib/net45/Google.Apis.Iam.v1.pdb",
+        "lib/net45/Google.Apis.Iam.v1.xml",
+        "lib/netstandard1.0/Google.Apis.Iam.v1.dll",
+        "lib/netstandard1.0/Google.Apis.Iam.v1.pdb",
+        "lib/netstandard1.0/Google.Apis.Iam.v1.xml",
+        "lib/netstandard1.3/Google.Apis.Iam.v1.dll",
+        "lib/netstandard1.3/Google.Apis.Iam.v1.pdb",
+        "lib/netstandard1.3/Google.Apis.Iam.v1.xml",
+        "lib/netstandard2.0/Google.Apis.Iam.v1.dll",
+        "lib/netstandard2.0/Google.Apis.Iam.v1.pdb",
+        "lib/netstandard2.0/Google.Apis.Iam.v1.xml"
+      ]
+    },
     "Google.Apis.PeopleService.v1/1.55.0.2567": {
       "sha512": "PUAnTo8YygdQow1eUd67stnCyyj7wQHhiKPBRCiVjvh1xwZRC0uiLTIjcHPFQi3JhoIumcSHCyGdIXGbgsGM5g==",
       "type": "package",
@@ -14279,6 +15345,216 @@
         "lib/netstandard2.0/Google.Apis.PeopleService.v1.dll",
         "lib/netstandard2.0/Google.Apis.PeopleService.v1.pdb",
         "lib/netstandard2.0/Google.Apis.PeopleService.v1.xml"
+      ]
+    },
+    "Google.Apis.Storage.v1/1.51.0.2234": {
+      "sha512": "l50ucoQRH4p2itqrdxjn9nyA7MNv1zXmWPZPkzASxGP9N/5jnZJ8ZAoRqXXPEDkQ7+1DK+O188iNfJ+WtZ4ELQ==",
+      "type": "package",
+      "path": "google.apis.storage.v1/1.51.0.2234",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.storage.v1.1.51.0.2234.nupkg.sha512",
+        "google.apis.storage.v1.nuspec",
+        "lib/net40/Google.Apis.Storage.v1.dll",
+        "lib/net40/Google.Apis.Storage.v1.pdb",
+        "lib/net40/Google.Apis.Storage.v1.xml",
+        "lib/net45/Google.Apis.Storage.v1.dll",
+        "lib/net45/Google.Apis.Storage.v1.pdb",
+        "lib/net45/Google.Apis.Storage.v1.xml",
+        "lib/netstandard1.0/Google.Apis.Storage.v1.dll",
+        "lib/netstandard1.0/Google.Apis.Storage.v1.pdb",
+        "lib/netstandard1.0/Google.Apis.Storage.v1.xml",
+        "lib/netstandard1.3/Google.Apis.Storage.v1.dll",
+        "lib/netstandard1.3/Google.Apis.Storage.v1.pdb",
+        "lib/netstandard1.3/Google.Apis.Storage.v1.xml",
+        "lib/netstandard2.0/Google.Apis.Storage.v1.dll",
+        "lib/netstandard2.0/Google.Apis.Storage.v1.pdb",
+        "lib/netstandard2.0/Google.Apis.Storage.v1.xml"
+      ]
+    },
+    "Google.Cloud.Iam.V1/2.2.0": {
+      "sha512": "jWqHTSPf1vPv/FocN9f8iHC/JjgooywceQPUg4t/R0RExOzjb/bE/ExhnOl9RqX61DWpd4hk30M/RWtfXwEzGA==",
+      "type": "package",
+      "path": "google.cloud.iam.v1/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.cloud.iam.v1.2.2.0.nupkg.sha512",
+        "google.cloud.iam.v1.nuspec",
+        "lib/net461/Google.Cloud.Iam.V1.dll",
+        "lib/net461/Google.Cloud.Iam.V1.pdb",
+        "lib/net461/Google.Cloud.Iam.V1.xml",
+        "lib/netstandard2.0/Google.Cloud.Iam.V1.dll",
+        "lib/netstandard2.0/Google.Cloud.Iam.V1.pdb",
+        "lib/netstandard2.0/Google.Cloud.Iam.V1.xml"
+      ]
+    },
+    "Google.Cloud.ResourceManager.V3/1.1.0": {
+      "sha512": "9w6Vy4DWG1rN9dxCc3fkpozc9Gnv6XwbIViPaDYYlm1nLsMvFacQedxHioPgT4XxnByORv2HW0Nei49Sx/6W3Q==",
+      "type": "package",
+      "path": "google.cloud.resourcemanager.v3/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.cloud.resourcemanager.v3.1.1.0.nupkg.sha512",
+        "google.cloud.resourcemanager.v3.nuspec",
+        "lib/net461/Google.Cloud.ResourceManager.V3.dll",
+        "lib/net461/Google.Cloud.ResourceManager.V3.pdb",
+        "lib/net461/Google.Cloud.ResourceManager.V3.xml",
+        "lib/netstandard2.0/Google.Cloud.ResourceManager.V3.dll",
+        "lib/netstandard2.0/Google.Cloud.ResourceManager.V3.pdb",
+        "lib/netstandard2.0/Google.Cloud.ResourceManager.V3.xml"
+      ]
+    },
+    "Google.Cloud.SecretManager.V1/1.7.0": {
+      "sha512": "XS+zY7f5hQWarXFRMYhNdfmuaioVb1oLgPXWwmnL/vlKpuPI1Z/OiO5lwO8mufSgl0sZXjWz0NODqaPsqvJbbg==",
+      "type": "package",
+      "path": "google.cloud.secretmanager.v1/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.cloud.secretmanager.v1.1.7.0.nupkg.sha512",
+        "google.cloud.secretmanager.v1.nuspec",
+        "lib/net461/Google.Cloud.SecretManager.V1.dll",
+        "lib/net461/Google.Cloud.SecretManager.V1.pdb",
+        "lib/net461/Google.Cloud.SecretManager.V1.xml",
+        "lib/netstandard2.0/Google.Cloud.SecretManager.V1.dll",
+        "lib/netstandard2.0/Google.Cloud.SecretManager.V1.pdb",
+        "lib/netstandard2.0/Google.Cloud.SecretManager.V1.xml"
+      ]
+    },
+    "Google.Cloud.Storage.V1/3.5.0": {
+      "sha512": "43R4eBJqJCTSN8kVh9apl3CgvwJwS2senmgbgppp1VLibmZgvaM27k5F7PXJU9IWN+ZsF4MujjPCvxlHyIFfTA==",
+      "type": "package",
+      "path": "google.cloud.storage.v1/3.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.cloud.storage.v1.3.5.0.nupkg.sha512",
+        "google.cloud.storage.v1.nuspec",
+        "lib/net461/Google.Cloud.Storage.V1.dll",
+        "lib/net461/Google.Cloud.Storage.V1.pdb",
+        "lib/net461/Google.Cloud.Storage.V1.xml",
+        "lib/netstandard2.0/Google.Cloud.Storage.V1.dll",
+        "lib/netstandard2.0/Google.Cloud.Storage.V1.pdb",
+        "lib/netstandard2.0/Google.Cloud.Storage.V1.xml"
+      ]
+    },
+    "Google.LongRunning/2.2.0": {
+      "sha512": "0i8BDoiVNDDaMBvZ/VzYYf8JWNs6L0UuVGkWOJ+W2UXu9N6nbhQpJ5kL+9xflM9xy9h1DdGJK2ydm7eDtA6Sjg==",
+      "type": "package",
+      "path": "google.longrunning/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.longrunning.2.2.0.nupkg.sha512",
+        "google.longrunning.nuspec",
+        "lib/net461/Google.LongRunning.dll",
+        "lib/net461/Google.LongRunning.pdb",
+        "lib/net461/Google.LongRunning.xml",
+        "lib/netstandard2.0/Google.LongRunning.dll",
+        "lib/netstandard2.0/Google.LongRunning.pdb",
+        "lib/netstandard2.0/Google.LongRunning.xml"
+      ]
+    },
+    "Google.Protobuf/3.15.8": {
+      "sha512": "tA0S9QXJq+r3CjwBlcn5glEUrbdAxhPWO4yhq5+ycn6WW6+nsvqzO6Qf6NE9XWbEz/F2QSpBTxjdTI7SvVy7CQ==",
+      "type": "package",
+      "path": "google.protobuf/3.15.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.protobuf.3.15.8.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.pdb",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/netstandard1.1/Google.Protobuf.dll",
+        "lib/netstandard1.1/Google.Protobuf.pdb",
+        "lib/netstandard1.1/Google.Protobuf.xml",
+        "lib/netstandard2.0/Google.Protobuf.dll",
+        "lib/netstandard2.0/Google.Protobuf.pdb",
+        "lib/netstandard2.0/Google.Protobuf.xml"
+      ]
+    },
+    "Grpc.Auth/2.38.0": {
+      "sha512": "tu/pTqbJ0fnZzbM3TbEL+6MMy24/RxdJAyZYHQvdNATu/MfCbNchjrgRQSptbGSvxrt1zntCpKwZT4QSw7CtYg==",
+      "type": "package",
+      "path": "grpc.auth/2.38.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "grpc.auth.2.38.0.nupkg.sha512",
+        "grpc.auth.nuspec",
+        "lib/net45/Grpc.Auth.dll",
+        "lib/net45/Grpc.Auth.pdb",
+        "lib/net45/Grpc.Auth.xml",
+        "lib/netstandard1.5/Grpc.Auth.dll",
+        "lib/netstandard1.5/Grpc.Auth.pdb",
+        "lib/netstandard1.5/Grpc.Auth.xml",
+        "lib/netstandard2.0/Grpc.Auth.dll",
+        "lib/netstandard2.0/Grpc.Auth.pdb",
+        "lib/netstandard2.0/Grpc.Auth.xml"
+      ]
+    },
+    "Grpc.Core/2.38.1": {
+      "sha512": "dFgCYVMNaOYiagWJZ7X/1MkGzS7+fnirvqh+0DPw+rPvcEa5UFU7O747wWz+QTKzuZ9Sii7DjfSbgZj65/lWxw==",
+      "type": "package",
+      "path": "grpc.core/2.38.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/Grpc.Core.targets",
+        "buildTransitive/net45/Grpc.Core.targets",
+        "grpc.core.2.38.1.nupkg.sha512",
+        "grpc.core.nuspec",
+        "lib/net45/Grpc.Core.dll",
+        "lib/net45/Grpc.Core.pdb",
+        "lib/net45/Grpc.Core.xml",
+        "lib/netstandard1.5/Grpc.Core.dll",
+        "lib/netstandard1.5/Grpc.Core.pdb",
+        "lib/netstandard1.5/Grpc.Core.xml",
+        "lib/netstandard2.0/Grpc.Core.dll",
+        "lib/netstandard2.0/Grpc.Core.pdb",
+        "lib/netstandard2.0/Grpc.Core.xml",
+        "runtimes/linux-arm64/native/libgrpc_csharp_ext.arm64.so",
+        "runtimes/linux-x64/native/libgrpc_csharp_ext.x64.so",
+        "runtimes/osx-x64/native/libgrpc_csharp_ext.x64.dylib",
+        "runtimes/win-x64/native/grpc_csharp_ext.x64.dll",
+        "runtimes/win-x86/native/grpc_csharp_ext.x86.dll"
+      ]
+    },
+    "Grpc.Core.Api/2.38.1": {
+      "sha512": "Z7e+LEXDCr2C0qUvyydShgLkuMChdT4biZsCg8xUaENZpO+y5VN4pUzcfj9jYVS8DOi8c/oqjx4WOlBuBKVhEg==",
+      "type": "package",
+      "path": "grpc.core.api/2.38.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "grpc.core.api.2.38.1.nupkg.sha512",
+        "grpc.core.api.nuspec",
+        "lib/net45/Grpc.Core.Api.dll",
+        "lib/net45/Grpc.Core.Api.pdb",
+        "lib/net45/Grpc.Core.Api.xml",
+        "lib/netstandard1.5/Grpc.Core.Api.dll",
+        "lib/netstandard1.5/Grpc.Core.Api.pdb",
+        "lib/netstandard1.5/Grpc.Core.Api.xml",
+        "lib/netstandard2.0/Grpc.Core.Api.dll",
+        "lib/netstandard2.0/Grpc.Core.Api.pdb",
+        "lib/netstandard2.0/Grpc.Core.Api.xml"
       ]
     },
     "HtmlAgilityPack/1.11.38": {
@@ -14591,23 +15867,25 @@
         "pkgicon.png"
       ]
     },
-    "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
-      "sha512": "UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
+    "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
+      "sha512": "3aeMZ1N0lJoSyzqiP03hqemtb1BijhsJADdobn/4nsMJ8V1H+CrpuduUe4hlRdx+ikBQju1VGjMD1GJ3Sk05Eg==",
       "type": "package",
-      "path": "microsoft.bcl.asyncinterfaces/6.0.0",
+      "path": "microsoft.bcl.asyncinterfaces/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
-        "lib/net461/Microsoft.Bcl.AsyncInterfaces.xml",
+        "buildTransitive/net461/Microsoft.Bcl.AsyncInterfaces.targets",
+        "buildTransitive/net462/_._",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.xml",
         "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
         "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
-        "microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
         "microsoft.bcl.asyncinterfaces.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -15067,30 +16345,42 @@
         "version.txt"
       ]
     },
-    "Microsoft.Extensions.Caching.Abstractions/2.2.0": {
-      "sha512": "spsJkYo8gGJapaxTSQFN/wqA+ghpJMLwB4ZyTB+fSdpd7AmMFP/YSpIcGmczcw4KggpxLGhLk7lCkSIlgvHaqQ==",
+    "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
+      "sha512": "bcz5sSFJbganH0+YrfvIjJDIcKNW7TL07C4d1eTmXy/wOt52iz4LVogJb6pazs7W0+74j0YpXFErvp++Aq5Bsw==",
       "type": "package",
-      "path": "microsoft.extensions.caching.abstractions/2.2.0",
+      "path": "microsoft.extensions.caching.abstractions/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Caching.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
-        "microsoft.extensions.caching.abstractions.2.2.0.nupkg.sha512",
-        "microsoft.extensions.caching.abstractions.nuspec"
+        "microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Caching.Memory/2.2.0": {
-      "sha512": "yFs44RzB2Pzfoj4uk+mEz3MTTQKyeWb8gDhv5GyVPfHnLv0eQhGwzbw/5WpxAcVyOgG/H3/0ULY6g0/7/B+r7w==",
+    "Microsoft.Extensions.Caching.Memory/6.0.0": {
+      "sha512": "Ve3BlCzhAlVp5IgO3+8dacAhZk1A0GlIlFNkAcfR2TfAibLKWIt5DhVJZfu4YtW+XZ89OjYf/agMcgjDtPxdGA==",
       "type": "package",
-      "path": "microsoft.extensions.caching.memory/2.2.0",
+      "path": "microsoft.extensions.caching.memory/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Caching.Memory.dll",
+        "lib/net461/Microsoft.Extensions.Caching.Memory.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
-        "microsoft.extensions.caching.memory.2.2.0.nupkg.sha512",
-        "microsoft.extensions.caching.memory.nuspec"
+        "microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
+        "microsoft.extensions.caching.memory.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.Extensions.Configuration/3.1.6": {
@@ -15230,18 +16520,56 @@
         "microsoft.extensions.logging.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/3.1.6": {
-      "sha512": "o2XYIjF9UugupEPvFsc9N8SjevixoRznS0V6EtjUZcGV4EjXXWKUXlKKsIWmD3i4dSiGo82aNcyqfQTsF/8h8g==",
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "sha512": "/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/3.1.6",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "build/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
-        "microsoft.extensions.logging.abstractions.nuspec"
+        "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.Extensions.ObjectPool/5.0.17": {
@@ -15263,36 +16591,50 @@
         "microsoft.extensions.objectpool.nuspec"
       ]
     },
-    "Microsoft.Extensions.Options/3.1.6": {
-      "sha512": "6nBkdL9UxCfA8eDuFBZVYAYpJhux0a6R7y58KcYnqKEYF84X9cK1uJQ9a+VWEWGXujMa4fnCGoVdKNYhANqbZg==",
+    "Microsoft.Extensions.Options/6.0.0": {
+      "sha512": "dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
       "type": "package",
-      "path": "microsoft.extensions.options/3.1.6",
+      "path": "microsoft.extensions.options/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Options.xml",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Options.dll",
+        "lib/net461/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.3.1.6.nupkg.sha512",
-        "microsoft.extensions.options.nuspec"
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.6.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Primitives/3.1.6": {
-      "sha512": "X+h3tO383iMbtFxYp6Al4pgBzbfQKJY8/gd4U7+sZy90XeSfnw5SwHyCiRrAePG6kee4zCGsvQHPCqaTZ876hw==",
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "sha512": "9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/3.1.6",
+      "path": "microsoft.extensions.primitives/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
         "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
         "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.3.1.6.nupkg.sha512",
-        "microsoft.extensions.primitives.nuspec"
+        "microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.Graph/4.11.0": {
@@ -16563,19 +17905,50 @@
         "ntextcat.nuspec"
       ]
     },
-    "Polly/7.1.0": {
-      "sha512": "mpQsvlEn4ipgICh5CGyVLPV93RFVzOrBG7wPZfzY8gExh7XgWQn0GCDY9nudbUEJ12UiGPP9i4+CohghBvzhmg==",
+    "Polly/7.2.2": {
+      "sha512": "E6CeKyS513j7taKAq4q2MESDBvzuzWnR1rQ2Y2zqJvpiVtKMm699Aubb20MUPBDmb0Ov8PmcLHTCVFdCjoy2kA==",
       "type": "package",
-      "path": "polly/7.1.0",
+      "path": "polly/7.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "lib/net461/Polly.dll",
+        "lib/net461/Polly.pdb",
+        "lib/net461/Polly.xml",
+        "lib/net472/Polly.dll",
+        "lib/net472/Polly.pdb",
+        "lib/net472/Polly.xml",
         "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.pdb",
         "lib/netstandard1.1/Polly.xml",
         "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.pdb",
         "lib/netstandard2.0/Polly.xml",
-        "polly.7.1.0.nupkg.sha512",
+        "polly.7.2.2.nupkg.sha512",
         "polly.nuspec"
+      ]
+    },
+    "Polly.Contrib.WaitAndRetry/1.1.1": {
+      "sha512": "1MUQLiSo4KDkQe6nzQRhIU05lm9jlexX5BVsbuw0SL82ynZ+GzAHQxJVDPVBboxV37Po3SG077aX8DuSy8TkaA==",
+      "type": "package",
+      "path": "polly.contrib.waitandretry/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Polly.Contrib.WaitAndRetry.dll",
+        "lib/net461/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/net461/Polly.Contrib.WaitAndRetry.xml",
+        "lib/net472/Polly.Contrib.WaitAndRetry.dll",
+        "lib/net472/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/net472/Polly.Contrib.WaitAndRetry.xml",
+        "lib/netstandard1.1/Polly.Contrib.WaitAndRetry.dll",
+        "lib/netstandard1.1/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/netstandard1.1/Polly.Contrib.WaitAndRetry.xml",
+        "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll",
+        "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.xml",
+        "polly.contrib.waitandretry.1.1.1.nupkg.sha512",
+        "polly.contrib.waitandretry.nuspec"
       ]
     },
     "Portable.BouncyCastle/1.8.9": {
@@ -24214,17 +25587,17 @@
         "uipath.codedworkflows.nuspec"
       ]
     },
-    "UiPath.ConnectionClient/2.0.3": {
-      "sha512": "9aykjTwvB0T1NygK7oqRIILraaSk4JNkZRMNii1oprGpOxcDHrP+a4NDevJEHLk1ML0kfiHPMTSdK3kK3sAOlQ==",
+    "UiPath.ConnectionClient/2.0.7": {
+      "sha512": "Wi2F23VRoZXXscb8wRF1DSJIkHb3r35qU7saaq94pnuUmmJ247iho0sVwRmjSa/Y2rcAmNj/2aaSrYOf1t4Z4g==",
       "type": "package",
-      "path": "uipath.connectionclient/2.0.3",
+      "path": "uipath.connectionclient/2.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "UI_icon.png",
         "lib/net461/ConnectionClient.dll",
-        "lib/net5.0/ConnectionClient.dll",
-        "uipath.connectionclient.2.0.3.nupkg.sha512",
+        "lib/net6.0/ConnectionClient.dll",
+        "uipath.connectionclient.2.0.7.nupkg.sha512",
         "uipath.connectionclient.nuspec"
       ]
     },
@@ -24551,6 +25924,117 @@
         "lib/net6.0/zh-TW/UiPath.Excel.resources.dll",
         "uipath.excel.activities.2.23.4.nupkg.sha512",
         "uipath.excel.activities.nuspec"
+      ]
+    },
+    "UiPath.GoogleCloud.Activities/2.4.1": {
+      "sha512": "rs16SRCKAv08cZwCyXT/8lP8iuZ3bt931mwFqKIqqZasffQnvYVM9LQwjVQHhwgM2skX/4NG+nqcCBrj9PoTkw==",
+      "type": "package",
+      "path": "uipath.googlecloud.activities/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/UiPath.GoogleCloud.Activities.Design.dll",
+        "lib/net461/UiPath.GoogleCloud.Activities.dll",
+        "lib/net461/UiPath.GoogleCloud.dll",
+        "lib/net461/de/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net461/de/UiPath.GoogleCloud.resources.dll",
+        "lib/net461/es-MX/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net461/es-MX/UiPath.GoogleCloud.resources.dll",
+        "lib/net461/es/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net461/es/UiPath.GoogleCloud.resources.dll",
+        "lib/net461/fr/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net461/fr/UiPath.GoogleCloud.resources.dll",
+        "lib/net461/ja/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net461/ja/UiPath.GoogleCloud.resources.dll",
+        "lib/net461/ko/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net461/ko/UiPath.GoogleCloud.resources.dll",
+        "lib/net461/pt-BR/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.GoogleCloud.resources.dll",
+        "lib/net461/pt/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net461/pt/UiPath.GoogleCloud.resources.dll",
+        "lib/net461/ru/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net461/ru/UiPath.GoogleCloud.resources.dll",
+        "lib/net461/tr/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net461/tr/UiPath.GoogleCloud.resources.dll",
+        "lib/net461/zh-CN/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.GoogleCloud.resources.dll",
+        "lib/net461/zh-TW/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net461/zh-TW/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0-windows7.0/UiPath.GoogleCloud.Activities.API.dll",
+        "lib/net6.0-windows7.0/UiPath.GoogleCloud.Activities.Design.dll",
+        "lib/net6.0-windows7.0/UiPath.GoogleCloud.Activities.dll",
+        "lib/net6.0-windows7.0/UiPath.GoogleCloud.dll",
+        "lib/net6.0-windows7.0/de/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/de/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0-windows7.0/de/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0-windows7.0/es-MX/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/es-MX/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0-windows7.0/es-MX/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0-windows7.0/es/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/es/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0-windows7.0/es/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0-windows7.0/fr/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/fr/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0-windows7.0/fr/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0-windows7.0/ja/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/ja/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ja/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0-windows7.0/ko/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/ko/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ko/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0-windows7.0/pt/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/pt/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0-windows7.0/pt/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0-windows7.0/ru/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/ru/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ru/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0-windows7.0/tr/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/tr/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0-windows7.0/tr/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0-windows7.0/zh-CN/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/zh-CN/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0-windows7.0/zh-TW/UiPath.GoogleCloud.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/zh-TW/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0/UiPath.GoogleCloud.Activities.API.dll",
+        "lib/net6.0/UiPath.GoogleCloud.Activities.dll",
+        "lib/net6.0/UiPath.GoogleCloud.dll",
+        "lib/net6.0/de/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0/de/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0/es-MX/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0/es-MX/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0/es/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0/es/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0/fr/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0/fr/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0/ja/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0/ja/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0/ko/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0/ko/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0/pt-BR/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0/pt-BR/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0/pt/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0/pt/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0/ru/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0/ru/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0/tr/UiPath.GoogleCloud.Activities.resources.dll",
+        "lib/net6.0/tr/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0/zh-CN/UiPath.GoogleCloud.resources.dll",
+        "lib/net6.0/zh-TW/UiPath.GoogleCloud.Activities.resources.dll",
+        "uipath.googlecloud.activities.2.4.1.nupkg.sha512",
+        "uipath.googlecloud.activities.nuspec"
       ]
     },
     "UiPath.ImageProcessing/23.4.0": {
@@ -28677,6 +30161,7 @@
     "net8.0-windows7.0": [
       "UiPath.DocumentUnderstanding.ML.Activities >= 1.28.7 <= 1.28.7",
       "UiPath.Excel.Activities >= 2.23.4 <= 2.23.4",
+      "UiPath.GoogleCloud.Activities >= 2.4.1 <= 2.4.1",
       "UiPath.IntelligentOCR.Activities >= 6.19.6 <= 6.19.6",
       "UiPath.Mail.Activities >= 1.23.1 <= 1.23.1",
       "UiPath.OmniPage.Activities >= 1.19.3 <= 1.19.3",
@@ -28708,6 +30193,11 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[2.23.4, 2.23.4]"
+          },
+          "UiPath.GoogleCloud.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[2.4.1, 2.4.1]"
           },
           "UiPath.IntelligentOCR.Activities": {
             "include": "Runtime",
@@ -28748,5 +30238,532 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'UiPath.GoogleCloud.Activities' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.GoogleCloud.Activities'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.GoogleCloud.Activities"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'UiPath.GoogleCloud.Activities' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.GoogleCloud.Activities'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.GoogleCloud.Activities"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Compute.v1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Compute.v1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Compute.v1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Compute.v1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Compute.v1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Compute.v1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Caching.Memory' from remote source 'http://myget.org/FindPackagesById()?id='Microsoft.Extensions.Caching.Memory'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Caching.Memory"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Caching.Memory' from remote source 'http://myget.org/FindPackagesById()?id='Microsoft.Extensions.Caching.Memory'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Caching.Memory"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Cloud.ResourceManager.V3' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.ResourceManager.V3'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.ResourceManager.V3"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Cloud.ResourceManager.V3' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.ResourceManager.V3'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.ResourceManager.V3"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Polly' from remote source 'http://myget.org/FindPackagesById()?id='Polly'&semVerLevel=2.0.0'.",
+      "libraryId": "Polly"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Polly' from remote source 'http://myget.org/FindPackagesById()?id='Polly'&semVerLevel=2.0.0'.",
+      "libraryId": "Polly"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Cloud.Storage.V1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.Storage.V1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.Storage.V1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Cloud.Storage.V1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.Storage.V1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.Storage.V1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Polly.Contrib.WaitAndRetry' from remote source 'http://myget.org/FindPackagesById()?id='Polly.Contrib.WaitAndRetry'&semVerLevel=2.0.0'.",
+      "libraryId": "Polly.Contrib.WaitAndRetry"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Polly.Contrib.WaitAndRetry' from remote source 'http://myget.org/FindPackagesById()?id='Polly.Contrib.WaitAndRetry'&semVerLevel=2.0.0'.",
+      "libraryId": "Polly.Contrib.WaitAndRetry"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'UiPath.ConnectionClient' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.ConnectionClient'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.ConnectionClient"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'UiPath.ConnectionClient' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.ConnectionClient'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.ConnectionClient"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Caching.Abstractions' from remote source 'http://myget.org/FindPackagesById()?id='Microsoft.Extensions.Caching.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Caching.Abstractions"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Caching.Abstractions' from remote source 'http://myget.org/FindPackagesById()?id='Microsoft.Extensions.Caching.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Caching.Abstractions"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Iam.v1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Iam.v1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Iam.v1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Iam.v1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Iam.v1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Iam.v1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Microsoft.Bcl.AsyncInterfaces' from remote source 'http://myget.org/FindPackagesById()?id='Microsoft.Bcl.AsyncInterfaces'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Bcl.AsyncInterfaces"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Microsoft.Bcl.AsyncInterfaces' from remote source 'http://myget.org/FindPackagesById()?id='Microsoft.Bcl.AsyncInterfaces'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Bcl.AsyncInterfaces"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Cloud.SecretManager.V1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.SecretManager.V1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.SecretManager.V1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Cloud.SecretManager.V1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.SecretManager.V1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.SecretManager.V1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'UiPath.CodedWorkflows' from remote source 'http://myget.org/FindPackagesById()?id='UiPath.CodedWorkflows'&semVerLevel=2.0.0'.",
+      "libraryId": "UiPath.CodedWorkflows"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Rest' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Rest'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Rest"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Rest' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Rest'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Rest"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Cloud.Iam.V1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.Iam.V1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.Iam.V1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Cloud.Iam.V1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Cloud.Iam.V1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Cloud.Iam.V1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Grpc.GrpcCore' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Grpc.GrpcCore'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Grpc.GrpcCore"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Grpc.GrpcCore' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Grpc.GrpcCore'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Grpc.GrpcCore"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Storage.v1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Storage.v1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Storage.v1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Storage.v1' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Storage.v1'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Storage.v1"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Core' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Core' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.LongRunning' from remote source 'http://myget.org/FindPackagesById()?id='Google.LongRunning'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.LongRunning"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.LongRunning' from remote source 'http://myget.org/FindPackagesById()?id='Google.LongRunning'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.LongRunning"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Grpc' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Grpc'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Grpc"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Grpc' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Grpc'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Grpc"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Grpc' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Grpc'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Grpc"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax.Grpc' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax.Grpc'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax.Grpc"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.Gax' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.Gax'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.Gax"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Core.Api' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Core.Api'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Core.Api"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.CommonProtos' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.CommonProtos'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.CommonProtos"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.CommonProtos' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.CommonProtos'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.CommonProtos"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.CommonProtos' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.CommonProtos'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.CommonProtos"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Api.CommonProtos' from remote source 'http://myget.org/FindPackagesById()?id='Google.Api.CommonProtos'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Api.CommonProtos"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Grpc.Auth' from remote source 'http://myget.org/FindPackagesById()?id='Grpc.Auth'&semVerLevel=2.0.0'.",
+      "libraryId": "Grpc.Auth"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Core' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Core"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Core' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Core"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Core' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Core"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Apis.Core' from remote source 'http://myget.org/FindPackagesById()?id='Google.Apis.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Apis.Core"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Protobuf' from remote source 'http://myget.org/FindPackagesById()?id='Google.Protobuf'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Protobuf"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Protobuf' from remote source 'http://myget.org/FindPackagesById()?id='Google.Protobuf'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Protobuf"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Protobuf' from remote source 'http://myget.org/FindPackagesById()?id='Google.Protobuf'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Protobuf"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'Google.Protobuf' from remote source 'http://myget.org/FindPackagesById()?id='Google.Protobuf'&semVerLevel=2.0.0'.",
+      "libraryId": "Google.Protobuf"
+    }
+  ]
 }
