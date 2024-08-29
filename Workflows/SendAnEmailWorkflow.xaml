@@ -1,9 +1,12 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="SendAMessageWorkflow" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="SendAMessageWorkflow" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
-    <x:Property Name="in_invoiceId" Type="InArgument(x:String)" />
-    <x:Property Name="in_errorMessage" Type="InArgument(x:String)" />
-    <x:Property Name="in_errorTime" Type="InArgument(x:String)" />
+    <x:Property Name="in_message" Type="InArgument(x:String)" />
+    <x:Property Name="in_subject" Type="InArgument(x:String)" />
+    <x:Property Name="in_filePath" Type="InArgument(x:String)" />
   </x:Members>
+  <this:SendAMessageWorkflow.in_filePath>
+    <InArgument x:TypeArguments="x:String" />
+  </this:SendAMessageWorkflow.in_filePath>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap:VirtualizedContainerService.HintSize>1408.8,987.2</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
@@ -119,7 +122,7 @@
         <InArgument x:TypeArguments="x:String">adammoran974@gmail.com</InArgument>
       </Assign.Value>
     </Assign>
-    <umab:GmailApplicationCard ConnectionAccountName="{x:Null}" Account="adammoran974@gmail.com" ClientId="481026203441-nv93mth3dolvteci28tce3nm3tvkoo23.apps.googleusercontent.com" ClientSecret="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" ConnectionId="{x:Null}" DisplayName="Use Gmail" EmailAddress="adammoran974@gmail.com" sap:VirtualizedContainerService.HintSize="529.6,720" sap2010:WorkflowViewState.IdRef="GmailApplicationCard_2" Timeout="90" UseConnectionService="False">
+    <umab:GmailApplicationCard ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" Account="adammoran974@gmail.com" ClientId="481026203441-nv93mth3dolvteci28tce3nm3tvkoo23.apps.googleusercontent.com" ClientSecret="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" DisplayName="Use Gmail" EmailAddress="adammoran974@gmail.com" sap:VirtualizedContainerService.HintSize="529.6,720" sap2010:WorkflowViewState.IdRef="GmailApplicationCard_2" Timeout="90" UseConnectionService="False">
       <umab:GmailApplicationCard.Body>
         <ActivityAction x:TypeArguments="um:IMailQuickHandle">
           <ActivityAction.Argument>
@@ -131,7 +134,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <umab:SendMailX Bcc="{x:Null}" BodyDocumentPath="{x:Null}" BodyType="Text" Cc="{x:Null}" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="433.6,426.4" HtmlBodyFromText="{x:Null}" sap2010:WorkflowViewState.IdRef="SendMailX_1" Importance="Normal" MaxBodyDocumentSizeMB="2" ReplyTo="{x:Null}" Sensitivity="Normal" Subject="Invoice Processing Error" UseDocumentAsBody="False">
+            <umab:SendMailX Bcc="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Subject="{x:Null}" BodyType="Text" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="433.6,426.4" sap2010:WorkflowViewState.IdRef="SendMailX_1" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" UseDocumentAsBody="False">
               <umab:SendMailX.Account>
                 <InArgument x:TypeArguments="um:IMailQuickHandle">
                   <CSharpValue x:TypeArguments="um:IMailQuickHandle" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">Gmail</CSharpValue>
@@ -139,12 +142,14 @@
               </umab:SendMailX.Account>
               <umab:SendMailX.Body>
                 <InArgument x:TypeArguments="x:String">
-                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5" xml:space="preserve">"InvoiceID: "  + in_invoiceId + "\nError Message: "+ in_errorMessage+ "\nError Time: " + in_errorTime</CSharpValue>
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">in_message</CSharpValue>
                 </InArgument>
               </umab:SendMailX.Body>
               <umab:SendMailX.Files>
                 <scg:List x:TypeArguments="InArgument(x:String)" Capacity="1">
-                  <InArgument x:TypeArguments="x:String">Data\\Item\\File.jpg</InArgument>
+                  <InArgument x:TypeArguments="x:String">
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">in_filePath</CSharpValue>
+                  </InArgument>
                 </scg:List>
               </umab:SendMailX.Files>
               <umab:SendMailX.HtmlBodyFromFile>

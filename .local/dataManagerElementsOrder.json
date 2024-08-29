@@ -18,7 +18,168 @@
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [
-        "MAIN_URL&7453d20b-a95a-4996-a3d9-fec079969936"
+        "MAIN_URL&d8c341d9-0074-43d3-aba4-d13a1bf329bd"
+      ],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows/SendAnEmailWorkflow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "senderAccount&Sequence_1",
+        "recieverAccount&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_filePath",
+        "in_subject",
+        "in_message"
+      ],
+      "ConstantsSectionElementsOrder": [
+        "MAIN_URL&d8c341d9-0074-43d3-aba4-d13a1bf329bd"
+      ],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows/ClassifyWorkflow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_docText",
+        "in_docObjectModel",
+        "out_taxonomy",
+        "out_classificationResults"
+      ],
+      "ConstantsSectionElementsOrder": [
+        "MAIN_URL&d8c341d9-0074-43d3-aba4-d13a1bf329bd"
+      ],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows/ExtractWorkflow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "extractionResult&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_docText",
+        "in_docObjectModel",
+        "in_taxonomy",
+        "in_classificationResult",
+        "out_extractedDataSet",
+        "in_transactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [
+        "MAIN_URL&d8c341d9-0074-43d3-aba4-d13a1bf329bd"
+      ],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows/BrowseInvoicesWorkflow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "extractedDTText&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_extractedInvoicesUrl"
+      ],
+      "ConstantsSectionElementsOrder": [
+        "MAIN_URL&d8c341d9-0074-43d3-aba4-d13a1bf329bd"
+      ],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows/SaveInvoicesUrlsIntoQueue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "listOfInvoices&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_extractedInvoicesUrl",
+        "in_userDate"
+      ],
+      "ConstantsSectionElementsOrder": [
+        "MAIN_URL&d8c341d9-0074-43d3-aba4-d13a1bf329bd"
+      ],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows/DigitizeWorkflow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_docText",
+        "out_docObjectModel"
+      ],
+      "ConstantsSectionElementsOrder": [
+        "MAIN_URL&d8c341d9-0074-43d3-aba4-d13a1bf329bd"
+      ],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows/ProcessTransactionWorkflow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "invoiceFile&Sequence_1",
+        "documentText&Sequence_1",
+        "documentObjectModel&Sequence_1",
+        "docText&Sequence_1",
+        "docObjectModel&Sequence_1",
+        "classificationResult&Sequence_1",
+        "taxonomy&Sequence_1",
+        "extractedDataSet&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_transactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [
+        "MAIN_URL&d8c341d9-0074-43d3-aba4-d13a1bf329bd"
+      ],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows/DataAddToExcelWorkflow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_newInvoices&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_totalDue",
+        "in_companyName",
+        "in_invoiceDate",
+        "in_invoiceNo",
+        "in_dueDate",
+        "in_invoiceId"
+      ],
+      "ConstantsSectionElementsOrder": [
+        "MAIN_URL&d8c341d9-0074-43d3-aba4-d13a1bf329bd"
+      ],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows/InitialisationWorkflow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "excelExistance&Sequence_8",
+        "dt_headers&Sequence_8",
+        "userDate&Sequence_1",
+        "extractedInvoicesUrl&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [
+        "MAIN_URL&d8c341d9-0074-43d3-aba4-d13a1bf329bd"
+      ],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows/EndProcessWorkflow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "jpgExistance&Sequence_1",
+        "excelExistance&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [
+        "MAIN_URL&d8c341d9-0074-43d3-aba4-d13a1bf329bd"
       ],
       "AddedNamespaces": null
     }

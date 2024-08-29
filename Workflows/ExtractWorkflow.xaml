@@ -23,7 +23,7 @@
     <InArgument x:TypeArguments="ui:QueueItem" />
   </this:ExtractWorkflow.in_transactionItem>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>1408.8,1651.2</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1408.8,1308</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -135,16 +135,16 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ExtractWorkflow" sap:VirtualizedContainerService.HintSize="644,1586.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ExtractWorkflow" sap:VirtualizedContainerService.HintSize="644,1243.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="581.6,1168" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="581.6,1050.4" sap2010:WorkflowViewState.IdRef="RetryScope_1">
       <ui:RetryScope.ActivityBody>
         <ActivityAction>
-          <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="540,960" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="540,842.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="p2:ExtractionResult" Name="extractionResult" />
             </Sequence.Variables>
@@ -236,7 +236,7 @@
                 </InArgument>
               </p3:DataExtractionScope.Taxonomy>
             </p3:DataExtractionScope>
-            <p3:ExportExtractionResults DisplayName="Export Extraction Results" sap:VirtualizedContainerService.HintSize="477.6,208.8" sap2010:WorkflowViewState.IdRef="ExportExtractionResults_1" IncludeConfidence="False" IncludeOCRConfidence="False">
+            <p3:ExportExtractionResults DisplayName="Export Extraction Results" sap:VirtualizedContainerService.HintSize="477.6,200" sap2010:WorkflowViewState.IdRef="ExportExtractionResults_1" IncludeConfidence="False" IncludeOCRConfidence="False">
               <p3:ExportExtractionResults.DataSet>
                 <OutArgument x:TypeArguments="sd:DataSet">
                   <CSharpReference x:TypeArguments="sd:DataSet" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">out_extractedDataSet</CSharpReference>
@@ -248,13 +248,6 @@
                 </InArgument>
               </p3:ExportExtractionResults.ExtractionResult>
             </p3:ExportExtractionResults>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="477.6,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_1">
-              <ui:MessageBox.Text>
-                <InArgument x:TypeArguments="x:Object">
-                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">string.Join(", ", out_extractedDataSet.Tables.Cast&lt;DataTable&gt;().SelectMany(table =&gt; table.Rows.Cast&lt;DataRow&gt;()).Select(row =&gt; string.Join(", ", row.ItemArray)))</CSharpValue>
-                </InArgument>
-              </ui:MessageBox.Text>
-            </ui:MessageBox>
           </Sequence>
         </ActivityAction>
       </ui:RetryScope.ActivityBody>
@@ -262,19 +255,6 @@
         <ActivityFunc x:TypeArguments="x:Boolean" />
       </ui:RetryScope.Condition>
     </ui:RetryScope>
-    <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="581.6,112.8" sap2010:WorkflowViewState.IdRef="DeleteFileX_1" Path="Data\\Item\\File.jpg" />
-    <ui:SetTransactionStatus ContinueOnError="{x:Null}" Reason="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Business" FolderPath="Invoices Test Task" sap:VirtualizedContainerService.HintSize="581.6,216.8" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_1" Status="Successful">
-      <ui:SetTransactionStatus.Analytics>
-        <scg:Dictionary x:TypeArguments="x:String, InArgument" />
-      </ui:SetTransactionStatus.Analytics>
-      <ui:SetTransactionStatus.Output>
-        <scg:Dictionary x:TypeArguments="x:String, InArgument" />
-      </ui:SetTransactionStatus.Output>
-      <ui:SetTransactionStatus.TransactionItem>
-        <InArgument x:TypeArguments="ui:QueueItem">
-          <CSharpValue x:TypeArguments="ui:QueueItem" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">in_transactionItem</CSharpValue>
-        </InArgument>
-      </ui:SetTransactionStatus.TransactionItem>
-    </ui:SetTransactionStatus>
+    <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="581.6,104" sap2010:WorkflowViewState.IdRef="DeleteFileX_1" Path="Data\\Item\\File.jpg" />
   </Sequence>
 </Activity>
